@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Bio</title>
+</head>
+<body>
+    <h1>Welcome to My Bio Page</h1>
+
+    <h2>About Me</h2>
+    <p>Hello! my name is vishnu jindal studing in Chitkara university.</p>
+    <h2>Hobbies</h2>
+    <p></p>
+    <h2>Contact Information</h2>
+    <p>Please use the form below to contact me:</p>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
