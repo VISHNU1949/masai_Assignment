@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        img {
+            max-width: 300px; /* Adjust as needed */
+            height: auto;
+            display: block; /* Prevents inline spacing issues */
+            margin-bottom: 10px; /* Adds space between image and link */
+        }
+    </style>
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+
+    <section>
+        <img src="image1.jpg" alt="A beautiful landscape">
+        <a href="https://www.example.com/landscape" target="_blank">Learn more about landscapes</a>
+    </section>
+
+    <section>
+        <img src="image2.jpg" alt="A delicious food dish">
+        <a href="https://www.example.com/food" target="_blank">View recipe</a>
+    </section>
+
+    <section>
+        <img src="image3.jpg" alt="A cute animal">
+        <a href="https://www.example.com/animals" target="_blank">More animal pictures</a>
+    </section>
+</body>
+</html>
