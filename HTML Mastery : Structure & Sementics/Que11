@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>My Semantic Webpage</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>First Article Title</h2>
+            <p>This is the content of the first article. It provides information about a specific topic. You can add more details and paragraphs as needed.</p>
+        </article>
+
+        <article>
+            <h2>Second Article Title</h2>
+            <p>This is the content of the second article. It discusses a different topic. Feel free to add more content to this article as well.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Semantic Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
