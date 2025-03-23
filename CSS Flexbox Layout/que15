@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tray Layout</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .tray {
+            width: 400px;
+            height: 350px;
+            background-color: black;
+            border: 2px solid gray;
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+            border-radius: 10%;
+        }
+        .left-section {
+            display: grid;
+            gap: 10px;
+        }
+        .circle-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: black;
+            padding: 10px;
+            border: 2px solid gray;
+            border-radius: 10%;
+        }
+        .circle {
+            width: 40px;
+            height: 40px;
+            border: 2px solid gray;
+            border-radius: 50%;
+        }
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            border: 2px solid gray;
+            width: 100%;
+            border-radius: 10%;
+        }
+        .rectangle {
+            width: 100%;
+            height: 100%;
+            border: 2px solid gray;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="tray">
+        <div class="left-section">
+            <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div style="display:flex;gap:10px;justify-content:center;align-items:center">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+        </div>
+    </div>
+</body>
+</html>
