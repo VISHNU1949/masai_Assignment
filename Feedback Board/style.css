@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body.light {
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    color: #000;
+  }
+  body.dark {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .feedback-form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  input, textarea, button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    color: green;
+  }
+  
+  .feedback-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  
+  .feedback-card {
+    flex: 1 1 300px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .feedback-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .delete-btn {
+    background-color: crimson;
+    margin-top: 1rem;
+  }
+  
+
+  .theme-toggle {
+    background: #555;
+    color: #fff;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    header {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .container {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  
